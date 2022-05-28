@@ -6,21 +6,17 @@
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Pied Piper</title>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
 
 <body>
     <header class="header">
         <div class="main_container">
             <div class="navigation_container">
                 <div class="logo">
-                    <a href="#top"><img src="img-header\logo.svg" alt="logo"></a>
+                    <a class="link11" href="#backtotop"><img src="img-header\logo.svg" alt="logo"></a>
                 </div>
                 <nav>
                     <a class="link" href="#theproblem">the problem</a> <span>|</span>
@@ -30,10 +26,10 @@
             </div>
         </div>
     </header>
-
+<div id="backtotop"></div>
     <section class="section1">
         <div class="pipernet">
-            <h1 id="top" class="text1">PiperNet Is Here</h1>
+            <h1 class="text1">PiperNet Is Here</h1>
         </div>
     </section>
 
@@ -135,8 +131,22 @@
         </div>
     </section>
 
- 
 
+    <script src="jquery\jquery-3.6.0.min.js"></script>
+
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$("a.link, a.link11").click(function(){
+				$("html, body").animate({
+					scrollTop: $($(this).attr("href")).offset().top
+				}, {
+					duration: 1000,
+					easing: "swing"
+				});
+				return false;
+			});
+		});
+	</script>
 
 </body>
 
