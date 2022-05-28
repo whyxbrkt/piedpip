@@ -1,0 +1,260 @@
+* {
+    /*Обнуляем значения присваиваемые
+    браузерами по умолчанию. */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+#theproblem,
+#PiedPiperCoin,
+#theteam {
+    border-top: 84px solid transparent;
+    margin-top: -84px;
+    background-clip: padding-box;
+}
+
+body {
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+.main_container {
+ /* Настройка из задания */
+    max-width: 1219px;
+    margin: 0 auto;
+    padding: 0 55px 0;
+}
+
+.header {
+    background-color: #007765;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    margin-top: 20px;
+    display: flex; 
+}
+
+.link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+}
+
+.navigation_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    top: 0;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.navigation_container span {
+    font-weight: 500;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    text-decoration: none;
+}
+
+.section1 {
+    margin-top: 84px;
+    background-image: url(cont1.png);
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.problem_title {
+    padding-top: 48px;
+    padding-bottom: 16px;
+    color: #007765;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.problem {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin-bottom: 92px;
+}
+
+.section3 {
+    background-image: url(cont2.png);
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.text3sec {
+   
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    background-position: center center;
+    color: #FFFFFF;
+}
+
+.piper1 {
+    font-family: 'Roboto';
+    padding-top: 48px;
+    padding-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.logo3 {
+    width: 115px;
+    height: auto;
+    float: left;
+    margin: 0 48px 35px 0;
+}
+
+.section4 {
+   padding-bottom: 92px;
+}
+
+.sec4text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    padding-bottom: 92px;
+
+}
+
+.sec5text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    padding-bottom: 92px;
+}
+
+.theteam {
+    font-family: 'Roboto';
+    
+    padding-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765; 
+    padding-bottom: 56px;
+}
+
+.section5 {
+    background: #EEEEEE;
+    padding-bottom: 94px;
+
+}
+
+.teamphoto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.teamphoto1 {
+    padding-bottom: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.theteamph1 {
+    padding: 30px;
+    width: 350px;
+    height: 283px;
+    text-align: center;
+}
+
+.teamname {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #007765;
+}
+
+.teamclass {
+    font-family: 'Roboto';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+
+.podval {
+    padding-top: 48px;
+    padding-bottom: 64px;
+    background: #333333;
+}
+
+.podvaltext {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+height: 64px;
+text-align: center;
+color: #FFFFFF;
+}
+
